@@ -1,6 +1,6 @@
 {
   "name": "xolentum-public-nodes-json",
-  "version": "0.0.1,
+  "version": "0.0.1",
   "description": "JSON list of known Xolentum public nodes",
   "main": "xolentum-public-nodes.json",
   "directories": {
