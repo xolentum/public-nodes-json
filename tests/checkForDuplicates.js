@@ -8,6 +8,6 @@ var seenNodes = []
 for (var i = 0; i < data.nodes.length; i++) {
   var node = data.nodes[i]
   console.log(node.name)
-  assert(seenNodes.indexOf(node.name) === -1)
-  seenNodes.push(node.name)
+  assert(seenNodes.indexOf(node.url) === -1)
+  seenNodes.push(node.url)
 }
