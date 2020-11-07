@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "name": "FluxCDN",
+      "url": "xol.fluxcdn.com",
+      "port": 13580,
+      "ssl": false
+    },
+    {
+      "name": "greywolf",
+      "url": "xolentum.xyz",
+      "port": 13580,
+      "ssl": false
+    },
+    {
+      "name": "sohamb03",
+      "url": "xolentum.sohamb03.me",
+      "port": 13580,
+      "ssl": false
+    },
+    {
+      "name": "ZechTech",
+      "url": "xol-node1.zechtech.us",
+      "port": 13580,
+      "ssl": false
+    },
+    {
+      "name": "ZechTech",
+      "url": "xol-node2.zechtech.us",
+      "port": 13580,
+      "ssl": false
+    }
+  ]
+}
