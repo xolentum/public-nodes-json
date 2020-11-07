@@ -1,0 +1,37 @@
+{
+  "name": "xolentum-public-nodes-json",
+  "version": "0.0.1,
+  "description": "JSON list of known Xolentum public nodes",
+  "main": "xolentum-public-nodes.json",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run checkDupes && npm run checkAlpha && npm run checkOrder",
+    "checkDupes": "node tests/checkForDuplicates.js",
+    "checkAlpha": "node tests/checkAlphaNumeric.js",
+    "checkOrder": "node tests/checkAlphabetical.js",
+    "checkNodes": "./node_modules/.bin/mocha tests/checkNodes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xolentum/public-nodes-json.git"
+  },
+  "keywords": [
+    "xolentum",
+    "public",
+    "nodes"
+  ],
+  "author": "The Xolentum Project",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/xolentum/public-nodes-json/issues"
+  },
+  "homepage": "https://github.com/xolentum/public-nodes-json#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "mocha": "^8.1.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
