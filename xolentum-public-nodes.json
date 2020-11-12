@@ -7,7 +7,7 @@
       "ssl": false
     },
     {
-      "name": "GNTL Mining Pools"
+      "name": "GNTL Mining Pools",
       "url": "node.pool.gntl.co.uk",
       "port": 13580,
       "ssl": false
