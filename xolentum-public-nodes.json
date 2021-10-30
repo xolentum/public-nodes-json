@@ -1,12 +1,6 @@
 {
   "nodes": [
     {
-      "name": "FluxCDN",
-      "url": "xol.fluxcdn.com",
-      "port": 13580,
-      "ssl": false
-    },
-    {
       "name": "GNTL Mining Pools",
       "url": "node.pool.gntl.co.uk",
       "port": 13580,
@@ -20,19 +14,7 @@
     },
     {
       "name": "sohamb03",
-      "url": "xolentum.sohamb03.me",
-      "port": 13580,
-      "ssl": false
-    },
-    {
-      "name": "ZechTech",
-      "url": "xol-node1.zechtech.us",
-      "port": 13580,
-      "ssl": false
-    },
-    {
-      "name": "ZechTech",
-      "url": "xol-node2.zechtech.us",
+      "url": "node.xolentum.org",
       "port": 13580,
       "ssl": false
     }
