@@ -1,12 +1,6 @@
 {
   "nodes": [
     {
-      "name": "GNTL Mining Pools",
-      "url": "node.pool.gntl.co.uk",
-      "port": 13580,
-      "ssl": false
-    },
-    {
       "name": "greywolf",
       "url": "xolentum.xyz",
       "port": 13580,
@@ -15,6 +9,12 @@
     {
       "name": "sohamb03",
       "url": "node.xolentum.org",
+      "port": 13580,
+      "ssl": false
+    },
+    {
+      "name": "The GNTL Project",
+      "url": "xol.gntl.uk",
       "port": 13580,
       "ssl": false
     }
