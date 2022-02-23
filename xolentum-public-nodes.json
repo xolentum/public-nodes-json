@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "name": "GNTL Mining Pools",
-      "url": "node.pool.gntl.co.uk",
+      "name": "The GNTL Project",
+      "url": "xol.gntl.uk",
       "port": 13580,
       "ssl": false
     },
